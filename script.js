@@ -58,19 +58,6 @@ function addInputs(row, col){
             input.appendChild(flex);
             flex.appendChild(entry);
         }
-        // const gap = document.createElement("span");
-        // const node = document.createTextNode(" | ");
-        // gap.appendChild(node);
-        // flex.appendChild(gap);
-
-        // const entry = document.createElement("input");
-        // entry.type="number";
-        // entry.value="0";
-        // entry.id="_"+i+(col-1);
-
-        // input.appendChild(flex);
-        // flex.appendChild(entry);
-
         const br = document.createElement("br");
         flex.appendChild(br);
 
